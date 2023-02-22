@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #f1f5f8;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.container .title {
+	text-align: center;
+	margin-bottom: 2rem;
+	font-size: 3rem;
+}
+
+.container .title h4 {
+	letter-spacing: 6px;
+}
+
+.review {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	width: 50rem;
+	height: 50rem;
+	border-radius: 10px;
+}
+
+.review .img-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem 0;
+	border: 3px solid rgb(73, 166, 233);
+	border-radius: 50%;
+}
+
+.review img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.review p {
+	margin: 4px 0;
+}
+
+.review #author {
+	font-size: 2rem;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+}
+
+.review #job {
+	font-size: 1.4rem;
+	color: rgb(73, 166, 233);
+	text-transform: capitalize;
+}
+
+.review #info {
+	margin: 1rem 5rem;
+	font-size: 1.6rem;
+	color: hsl(210, 22%, 49%);
+	line-height: 1.6;
+}
+
+.button-container {
+	display: flex;
+	gap: 20px;
+}
+
+.button-container i {
+	color: hsl(205, 90%, 76%);
+	font-size: 2rem;
+	cursor: pointer;
+	transition: 0.3s all ease;
+}
+
+.button-container i:hover {
+	color: #49a6e9;
+}
+
+.random-btn {
+	margin: 2rem;
+	background: #ebf7ff;
+	color: #49a6e9;
+	padding: 0.25rem 0.5rem;
+	text-transform: capitalize;
+	border-radius: 0.5rem;
+	transition: 0.4s all ease;
+	border-color: #49a6e9;
+	cursor: pointer;
+	font-size: 14px;
+	outline: none;
+}
+
+.random-btn:hover {
+	background-color: #49a6e9;
+	color: #ebf7ff;
+	outline: none;
+}
+
+.random-btn:active {
+	outline: none;
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 100%;
+		height: 100%;
+	}
+
+	.review {
+		width: 100%;
+		height: 100%;
+	}
+}

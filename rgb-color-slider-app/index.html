@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>RGB Color Slider</title>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			type="text/javascript"
+			src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=KdvgUt0hwat8lX2VH8L2e-sRwJdIlf8AbWTyx0R7sx-yYFaUMSpl-SZgu1OOcZpoHOu7Q0yiE9HSElxcQV1KDtgES4n-HLfAeXjSu2UJInU"
+			charset="UTF-8"
+		></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="wrapper">
+				R
+				<input
+					type="range"
+					min="0"
+					max="255"
+					value="0"
+					id="red"
+					oninput="colors()"
+				/>
+			</div>
+			<div class="wrapper">
+				G
+				<input
+					type="range"
+					min="0"
+					max="255"
+					value="0"
+					id="green"
+					oninput="colors()"
+				/>
+			</div>
+			<div class="wrapper">
+				B
+				<input
+					type="range"
+					min="0"
+					max="255"
+					value="0"
+					id="blue"
+					oninput="colors()"
+				/>
+			</div>
+			<span class="output">rgb(0,0,0)</span>
+		</div>
+		<script>
+			function colors() {
+				const red = document.getElementById("red").value;
+				const green = document.getElementById("green").value;
+				const blue = document.getElementById("blue").value;
+				document.body.style.backgroundColor =
+					"rgb(" + red + "," + green + "," + blue + ")";
+				const output = (document.querySelector(".output").innerHTML =
+					"rgb(" + red + "," + green + "," + blue + ")");
+			}
+		</script>
+	</body>
+</html>
