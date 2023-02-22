@@ -6,4 +6,5 @@
 
 🔵 Summary: I made a carousel app.
 
-[carousel.webm](https://user-images.githubusercontent.com/85739464/220732043-55fdf8b3-ee3f-4bda-876e-06b2fb5243dc.webm)
+[slider.webm](https://user-images.githubusercontent.com/85739464/220735192-f722e2b8-acb3-4e54-a176-44a36dac56da.webm)
+
