@@ -2,7 +2,7 @@
 
 🔵 Serhat Can
 
-🔵 Demo: https://fabulous-travesseiro-6922e7.netlify.app/
+🔵 Demo: https://steady-kelpie-9a75a7.netlify.app/
 
 🔵 Summary: I made a notifictaion app.
 
