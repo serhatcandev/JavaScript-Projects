@@ -1,0 +1,12 @@
+# API Weather App
+
+🔵 Serhat Can
+
+🔵 Demo: https://boisterous-pika-028840.netlify.app/
+
+🔵 Summary: I made a weather app with API - OpenWeatherMap.
+
+[screen-capture.webm](https://user-images.githubusercontent.com/85739464/223233923-85f835e4-9fe5-4bb7-ace5-5f46a6050f97.webm)
+
+
+
