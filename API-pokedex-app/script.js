@@ -23,16 +23,25 @@ const colors = {
 const pokeCount = 151;
 
 const initPokemon = async () => {
+	const pokemonPromises = [];
+
 	for (let i = 1; i <= pokeCount; i++) {
-		getPokemon(i);
+		pokemonPromises.push(getPokemon(i));
 	}
+
+	const pokemonData = await Promise.all(pokemonPromises);
+
+	pokemonData.forEach((pokemon) => {
+		createPokemonBox(pokemon);
+	});
 };
 
 const getPokemon = async (id) => {
 	let url = `https://pokeapi.co/api/v2/pokemon/${id}`;
 	let res = await fetch(url);
 	let data = await res.json();
-	createPokemonBox(data);
+
+	return data;
 };
 
 const createPokemonBox = (pokemon) => {
