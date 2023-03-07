@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	background: linear-gradient(to right, #2948ff, #396afc);
+}
+
+h1 {
+	text-align: center;
+	margin: 1.5rem;
+	font-size: 48px;
+	color: #fff;
+}
+
+h4 {
+	text-align: center;
+	margin-bottom: 0.8rem;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 400;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form input,
+form button {
+	padding: 15px 20px;
+	border: 0;
+	outline: 0;
+	background-color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+form button {
+	cursor: pointer;
+}
+
+.poke-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.poke-container .poke-box {
+	width: 300px;
+	border-radius: 15px;
+	background-color: #fff;
+	padding: 10px;
+	color: #333;
+	font-size: 1.2rem;
+	margin: 20px;
+	text-align: center;
+}
+
+.poke-box .poke-img {
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+.poke-box .poke-name {
+	text-transform: capitalize;
+}
+
+.poke-box .poke-id {
+	margin: 10px;
+}
+
+.poke-box .poke-weight {
+	margin: 10px;
+}
+
+.poke-box .poke-type {
+	margin: 10px;
+}
