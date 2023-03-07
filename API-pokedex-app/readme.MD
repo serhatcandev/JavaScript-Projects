@@ -2,7 +2,7 @@
 
 🔵 Serhat Can
 
-🔵 Demo: https://grand-trifle-183e38.netlify.app/
+🔵 Demo: https://exquisite-frangipane-154cbd.netlify.app/
 
 🔵 Summary: I made an application that lists Pokemon with the Pokedex API.
 
