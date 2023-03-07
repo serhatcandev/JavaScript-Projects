@@ -2,7 +2,7 @@
 
 🔵 Serhat Can
 
-🔵 Demo: https://boisterous-pika-028840.netlify.app/
+🔵 Demo: https://iridescent-dieffenbachia-152a0a.netlify.app/
 
 🔵 Summary: I made a weather app with API - OpenWeatherMap.
 
